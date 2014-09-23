@@ -82,9 +82,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #99CC66;
     color: #fff;
-    background-color: #fec503;
+    background-color: #99CC66;
 }
 
 .btn-primary:active,
@@ -134,9 +134,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #99CC66;
     color: #fff;
-    background-color: #fec503;
+    background-color: #99CC66;
 }
 
 .btn-xl:active,
@@ -331,10 +331,13 @@ section h2.section-heading {
 }
 table {
     width: 70%;
-    background-color: white;
-    float: center;
+    background-color: white; 
+    opacity: 0.9;
+    border: 22px;
 }
 td { 
+    padding: 4px;
+    text-align: center;
     letter-spacing: 1px;
     color: #000;
 }
@@ -342,6 +345,10 @@ th {
     padding: 6px;
     letter-spacing: 2px;
     color: #99CC66;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    text-align: center;
 }
 section h3.section-subheading {
     margin-bottom: 75px;
@@ -666,7 +673,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/map-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
