@@ -337,7 +337,7 @@ table {
     border: 22px;
 }
 td { 
-    padding: 4px;
+    padding-bottom: 6px;
     text-align: center;
     letter-spacing: 1px;
     color: #000;
