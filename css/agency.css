@@ -231,6 +231,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: transparent;
 }
 
+.navbar-default.navbar-shrink .img-responsive {
+	max-height: 100%;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
