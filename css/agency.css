@@ -244,11 +244,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default.navbar-shrink {
-    background-color: #F7F7F7;
+    background-color: #fff;
 }
 
 .navbar-default.navbar-shrink .nav li a {
-    color: #000;
+    /*color: #000;*/
 }
 
 @media(min-width:768px) {
