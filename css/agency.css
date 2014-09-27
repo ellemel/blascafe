@@ -378,6 +378,11 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
